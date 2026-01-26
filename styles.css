@@ -219,6 +219,23 @@ header.scrolled {
     color: var(--primary);
 }
 
+.donate-btn {
+    background-color: var(--secondary) !important;
+    padding: 10px 20px !important;
+    border-radius: 4px;
+    font-weight: 600 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px;
+    transition: var(--transition);
+}
+
+.donate-btn:hover {
+    background-color: #e68900 !important;
+    transform: translateY(-3px);
+    box-shadow: var(--shadow);
+}
+
 .hamburger {
     display: none;
     cursor: pointer;
@@ -467,6 +484,38 @@ header.scrolled {
 .stat h3 {
     font-size: 2.5rem;
     margin-bottom: 5px;
+}
+
+.announcements {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.announcements-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.announcement-poster {
+    max-width: 600px;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.announcement-poster:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
+}
+
+.announcement-poster img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .gallery {
